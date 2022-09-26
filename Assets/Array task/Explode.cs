@@ -22,7 +22,7 @@ public class Explode : MonoBehaviour
     {
       
     }
-    void Explosion()
+   /* void Explosion()
     {
         //Instantiate(explosionEffect, transform.position, transform.rotation);
        Collider[] colliders =  Physics.OverlapSphere(transform.position , bombRadius);
@@ -41,6 +41,6 @@ public class Explode : MonoBehaviour
     {
          if (other.gameObject.tag=="Player")
         Explosion();
-    }
+    }*/
     
 }
